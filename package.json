@@ -1,0 +1,24 @@
+{
+  "name": "typescripttutorial",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Sumitsharma31/typescriptTutorial#readme",
+  "bugs": {
+    "url": "https://github.com/Sumitsharma31/typescriptTutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumitsharma31/typescriptTutorial.git"
+  },
+  "license": "ISC",
+  "author": "sumit sharma",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node dist/aap.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
