@@ -1,4 +1,4 @@
-import console = require("node:console");
+
 
 function greet(name:string):string{
   return `Hello ${name} Welcome Back`
@@ -18,3 +18,7 @@ let userDetail:string | number;
 
 userDetail='Bihar'
 userDetail=7788995544;
+
+// Union And any
+let paymentStatus:'pending'| 'success'| 'error'='pending';
+paymentStatus='success';   //accept only these 3 options
