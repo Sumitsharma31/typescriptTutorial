@@ -22,3 +22,10 @@ userDetail=7788995544;
 // Union And any
 let paymentStatus:'pending'| 'success'| 'error'='pending';
 paymentStatus='success';   //accept only these 3 options
+
+//Data Types 
+let isActive: boolean = true;
+let age: number = 22;
+let name: string = "Sumit";
+let skills: string[] = ["HTML", "CSS", "TS"];
+let tuple: [string, number] = ["Age", 22];
