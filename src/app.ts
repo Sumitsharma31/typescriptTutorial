@@ -28,7 +28,7 @@ let value: any = 10;
 value = "Hello";
 value = true;
 
-//unknow 
+//unknow --Safer than any.
 let data: unknown = "Hello";
 
 if (typeof data === "string") {
@@ -42,3 +42,11 @@ let age: number = 22;
 let name: string = "Sumit";
 let skills: string[] = ["HTML", "CSS", "TS"];
 let tuple: [string, number] = ["Age", 22];
+
+
+//Function with type annotations
+function add(a: number, b: number): number {
+  return a + b;
+}
+
+add(10, 20);
