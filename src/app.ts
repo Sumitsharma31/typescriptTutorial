@@ -50,3 +50,7 @@ function add(a: number, b: number): number {
 }
 
 add(10, 20);
+
+
+// Arrow function in TypeScript
+const multiply = (a: number, b: number): number => a * b;
