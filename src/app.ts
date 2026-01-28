@@ -28,6 +28,13 @@ let value: any = 10;
 value = "Hello";
 value = true;
 
+//unknow 
+let data: unknown = "Hello";
+
+if (typeof data === "string") {
+  console.log(data.toUpperCase());
+}
+
 
 //Data Types 
 let isActive: boolean = true;
