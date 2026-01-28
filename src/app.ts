@@ -23,6 +23,12 @@ userDetail=7788995544;
 let paymentStatus:'pending'| 'success'| 'error'='pending';
 paymentStatus='success';   //accept only these 3 options
 
+//any --Avoid any because it removes type safety.
+let value: any = 10;
+value = "Hello";
+value = true;
+
+
 //Data Types 
 let isActive: boolean = true;
 let age: number = 22;
