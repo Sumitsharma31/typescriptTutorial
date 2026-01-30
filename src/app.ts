@@ -59,3 +59,11 @@ const multiply = (a: number, b: number): number => a * b;
 function throwError(message: string): never {
   throw new Error(message);
 }
+
+//Generic array:
+function getFirst<T>(arr: T[]): T {
+  return arr[0];
+}
+
+getFirst([1, 2, 3]);
+getFirst(["a", "b"]);
